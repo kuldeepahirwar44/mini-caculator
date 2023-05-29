@@ -1,0 +1,67 @@
+
+.App{
+  margin-top: 50px;
+  padding-left: 430px;
+  position: relative;
+  
+}
+
+h2{
+  padding-bottom: 20px;
+  padding-left: 70px;
+
+}
+
+.calculateMn {
+  border: 2px solid;
+  border-radius: 20px;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  width: 450px;
+  height: 430px;
+  background-image: linear-gradient(lightblue, green, yellow);
+  font-size: 20px;
+}
+
+.inputBox {
+  font-size: 18px;
+  border: 2px solid;
+  border-radius: 7px;
+  background-color: aqua;
+  cursor: pointer;
+  box-shadow: rgg(0 ,0 ,0 , .2);
+} 
+.opsBtn {
+  width: 40px;
+  margin-left: 5px;
+  font-size: 19px;
+  background-color: rgb(15, 15, 50);
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.opsBtn:hover {
+  background-image: linear-gradient(green, red);
+  transition: 1s;
+  font-size: 20px;
+}
+
+#subBtn {
+  width: 110px;
+  font-size: 19px;
+  background-color: rgb(15, 15, 50);
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+} 
+#subBtn:hover {
+  background-image: linear-gradient(green, red);
+  transition: 1s;
+  font-size: 20px;
+}
+#oprClue {
+  font-size: bold;
+  padding-left: 105px;
+
+}
